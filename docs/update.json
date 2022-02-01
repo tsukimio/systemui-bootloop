@@ -2,5 +2,5 @@
   "versionCode": 100,
   "version": "v1.0.0",
   "zipUrl": "https://github.com/tsukimio/systemui-bootloop/releases/download/v1.0.0/systemui-bootloop.zip-v1.0.0.zip",
-  "changelog": ""
+  "changelog": "https://tsukimio.github.io/systemui-bootloop/CHANGELOG.md"
 }
