@@ -1,5 +1,5 @@
 # systemui-bootloop
-Fixes bootloops from systemUI.
+Fixes SystemUI bootloops.
 
 ## About
 Fixes SystemUI bootloops by detecting when SystemUI crashes (due to a Magisk module such as Substratum,) and reboots your device into safe mode automatically to disable Magisk so you can correct the faulty module.
