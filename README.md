@@ -9,3 +9,6 @@ This module has not been tested below Magisk v24.1, so try at your own risk if y
 
 ## Installation
 Flash using Magisk manager.
+
+--- 
+**Want to get information and updates on this Magisk module along with my other Magisk modules? Join my [Telegram announcement channel](https://t.me/tsukimio).**
