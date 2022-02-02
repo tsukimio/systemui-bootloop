@@ -36,8 +36,7 @@ mv -f /cache/systemui-bootloop.log /cache/systemui-bootloop.log.bak 2>/dev/null
 write_log "systemui bootloop saver started"
 SYSTEMUI_NICENAME=systemui
 
-# Wait for systemui to start, may change later
-sleep 30
+while [ "$(getprop sys.boot_completed)" != 1 ]; then sleep 1
 
 SYSTEMUI_PID1=$(pgrep  "$SYSTEMUI_NICENAME" | awk '{ print $1 '})
 write_log "pid of systemui stage 1: $SYSTEMUI_PID1"
