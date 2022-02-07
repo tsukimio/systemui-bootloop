@@ -37,7 +37,7 @@ write_log "systemui bootloop saver started"
 SYSTEMUI_NICENAME=systemui
 
 # Wait for systemui to start, may change later
-sleep 30
+sleep 20
 
 SYSTEMUI_PID1=$(pgrep  "$SYSTEMUI_NICENAME" | awk '{ print $1 '})
 write_log "pid of systemui stage 1: $SYSTEMUI_PID1"
