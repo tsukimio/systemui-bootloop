@@ -4,6 +4,6 @@ version=v1.0.0
 versionCode=100
 author=n3rd3x3
 description=A Magisk Module that aims to stop SystemUI from bootlooping.
-support=https://gitlab.com/tsukimio/systemui-bootloop
+support=https://github.com/tsukimio/systemui-bootloop
 minMagisk=2400
 updateJson=https://tsukimio.github.io/systemui-bootloop/update.json
