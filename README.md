@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This module has not recieved updates in 2 years, and has not been tested in a year. Use at your own risk.
+
 # systemui-bootloop
 Fixes SystemUI bootloops.
 
